@@ -1,6 +1,27 @@
 *{
   box-sizing: border-box;
-  margin: .75px;
-  padding: .75px;
+  margin: 0;
+ 
   font-family: "Outfit", Arial, Helvetica, sans-serif;
+}
+.nav{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  color: rgb(236, 236, 236);
+   padding: 8px;
+
+}
+.nav-item{
+  margin-right: 20px;
+
+}
+.main{
+  height: 40vh;
+  background-color: aquamarine;
+}
+
+.footer{
+  height: 20vh;
+  background-color: rgb(0, 79, 53);
 }
