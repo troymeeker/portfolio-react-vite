@@ -3,9 +3,9 @@ import styles from './Navbar.module.css'
 function Navbar() {
   return (
     <nav className={styles.navbar}>
-            <a href="/" className="">Portfolio</a>
-      <div>
-        <ul>
+            <a className={styles.title} href="/" >Portfolio</a>
+      <div className={styles.menu}>
+        <ul className={styles.menuItems}>
           <li>
             <a className="nav-item" href="#about">About</a>
           </li>
