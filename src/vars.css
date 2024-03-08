@@ -4,8 +4,7 @@
     --color-primary:#58faba;
     --color-sec:#333;
     --color-dark:#000;
-    --color-bg:#654646;
-    /* fonts */
+    --color-bg: rgb(0, 2, 62);    /* fonts */
     --font-roboto:"Roboto";
     
 }
