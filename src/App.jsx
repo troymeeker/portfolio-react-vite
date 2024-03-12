@@ -1,8 +1,8 @@
 // import { useState } from 'react'
 
 import styles from "./App.module.css";
-import Navbar from "./components/Navbar/navbar";
-import Main from "./components/Main/Main";
+import Navbar from "../components/Navbar";
+import Main from "/Main.jsx";
 
 function App() {
   //  const [count, setCount] = useState(0)

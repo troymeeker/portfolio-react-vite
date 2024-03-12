@@ -1,4 +1,4 @@
-import Contact from "../Contact/Contact";
+import Contact from "./components/Contact";
 
 function Main() {
   return (
@@ -17,6 +17,7 @@ function Main() {
         <Contact />
       </div> 
       <div className="main-right">photo - right</div>
+
     </div>
   );
 }
