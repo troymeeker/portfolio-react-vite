@@ -4,21 +4,28 @@
  
   font-family: "Outfit", Arial, Helvetica, sans-serif;
 }
-.nav{
-  display: flex;
-  justify-content: end;
-  align-items: center;
-  color: rgb(0, 2, 62);
-   height: 12vh;
 
-}
 .nav-item{
   margin-right: 20px;
 
 }
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
 .main{
-  height: 50vh;
+  height: 60vh;
   color: rgb(0, 2, 62);
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .footer{

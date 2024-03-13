@@ -1,15 +1,15 @@
 // import { useState } from 'react'
 
 import styles from "./App.module.css";
-import Navbar from "../components/Navbar";
-import Main from "/Main.jsx";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
 
 function App() {
   //  const [count, setCount] = useState(0)
 
   return (
     <div className={styles.App}>
-      <div className="nav">
+      <div >
         {/* <p>Demo Calculator coming soon</p> */}
         {/* <div className="card">
         <button onClick={() => setCount((count) => count + 1)}> +      </button> 
@@ -20,7 +20,7 @@ function App() {
         <Navbar />
       </div>
       <div>
-        <Main />
+        <Hero />
       </div>
       s<div className="footer"></div>
     </div>
