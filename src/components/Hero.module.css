@@ -13,8 +13,35 @@
 
 .content {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: flex-start;
   color: var(--color-text);
   z-index: 1;
+  margin-left: 60px;
+
+}
+.heroSection{
+    display: flex;
+    padding: 8px;  
+
+}
+.heroCopy {
+  height: 400px;
+  width: 450px;
+  border: 2px solid #767676;
+  border-radius: 10px;
+  margin: 20px;
+  padding: 20px;
+  display: flex;
+  line-height: 25px;
+}
+
+.heroPhoto {
+  height: 350px;
+  width: 350px;
+  border: 2px solid #101010;
+  border-radius: 50%;
+  margin-left: 200px;
+  margin-top: 50px;
+  display: flex;
 }

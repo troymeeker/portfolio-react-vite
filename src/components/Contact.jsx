@@ -3,7 +3,7 @@
 function Contact() {
   return (
    
-        <button className="contact-btn">Contact Me</button>
+        <a className="contact-btn" href="mailto:troymeeker1@gmail.com">Contact Me</a>
  
   )
 }
